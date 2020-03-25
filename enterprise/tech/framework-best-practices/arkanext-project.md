@@ -1,8 +1,8 @@
 # Nombre del proyecto
-> Aunque el nombre del proyecto esté en clave hay que poner aquí un nombre descriptivo que lo describa. Por ejemplo: buscador centralizado de contenidos en ficheros en lugar de Arkanext
+> Aunque el nombre del proyecto esté en clave hay que poner aquí un nombre descriptivo. Por ejemplo: buscador centralizado de contenidos en ficheros en lugar de Arkanext
 
 ## Descripción
-> Hay que explicar el nombre y una breve descripción de su objetivo (que se especificará más en siguientes puntos). Y ahora si tiene un nombre en clave se especificará aquí.
+> Hay que explicar el nombre y añadir una breve descripción de su objetivo (que se especificará más en los siguientes puntos).
 
 #### [v1.0]
 > Versión del documento (si procede)
@@ -12,7 +12,7 @@
 * [NombreAutor1 ApellidoAutor1](mailto:nombre1.apellido1.next@bbva.com)
 * [NombreAutor2 ApellidoAutor2](mailto:nombre2.apellido2.next@bbva.com)
 
-#### EQUIPO1 EQUIPO2  DD-MM-YYYY
+#### Equipo1 Equipo2  DD-MM-YYYY
 > Equipo(s) que han aportado al documento y en qué fecha. Es importante especificar qué cambios se han abordado y por qué se han hecho.
 
 #### keyword1, keyword2, keyword3
@@ -25,7 +25,7 @@
 > El problema debe quedar claramente descrito en esta sección y donde se quiere llegar o porque se quiere arreglar.
 
 ## Solución
-> En esta sección se debe especificar con claridad como cada solución tecnológica aporta valor al objetivo. Es común que está sección tenga sub secciones en los proyectos grandes.
+> En esta sección se debe especificar con claridad como cada solución tecnológica aporta valor al objetivo. Es común que está sección tenga subsecciones en los proyectos grandes.
 
 # Bibliografía
 > En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección.
