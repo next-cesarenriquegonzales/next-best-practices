@@ -27,7 +27,7 @@
 ## Solución
 > En esta sección se debe especificar con claridad como cada solución tecnológica aporta valor al objetivo. Es común que está sección tenga subsecciones en los proyectos grandes.
 
-# Bibliografía
+## Bibliografía
 > En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección.
 
 
