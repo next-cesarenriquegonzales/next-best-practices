@@ -27,6 +27,6 @@
 ## Solución
 > En esta sección se debe especificar con claridad como cada solución aporta valor al objetivo.
 
-# Bibliografía
+## Bibliografía
 > En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección.
 
