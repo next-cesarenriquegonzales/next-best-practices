@@ -1,8 +1,20 @@
 # Título del curso
-> Titulo del curso en learnify
+> Titulo del curso, se especifico
+[comment]:# (intenta ser descriptivo y específico)
+
 
 ## Información General
-> Descripción general de la materia a tratar
+> Descripción general de la materia a tratar  
+
+## Nivel
+> Nivel del training, puede ser basico, medio o dificil
+[comment]:# (Agregar un nivel del trining en el tema, para que sepa en lo que se inscribe)
+
+
+## Pre-requisitos
+> Conocimientos, herramientas o recursos que necesitas para este training 
+[comment]:# (los pre requisitos son los recursos que debe tener la persona que tomara el training, es distinto a la seccion de recursos, ya que los pre-requisitos no son dados )
+
 
 #### [v1.0]
 > Versión del documento (si procede)
@@ -29,4 +41,5 @@
 
 # Bibliografía
 > En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección.
+
 
