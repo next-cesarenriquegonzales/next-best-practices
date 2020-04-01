@@ -27,6 +27,10 @@
 ### Estado del arte
 > Esta sección trata de contextualizar la tecnología usada/evaluada en esta PoC dentro de tecnologías similares en el mercado. Información de cuándo aparecieron, trends de uso, popularidad, desarrollo, versiones disponibles, se identificarán tecnologías similares que pueden pertenecer o no al radar de la compañía
 
-## Material
-> En esta sección tiene que describirse todo el material utilizado para cualquier parte de la PoC.
+### Resultados
+> En esta sección se trata de describir los resultados y conclusiones de la PoC realizada. Se pueden analizar diferentes aspectos como funcionalidad, rendimiento, escalabilidad, operación del producto, etc ..
 
+# Bibliografía
+> En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección. Las citas se realizarán bajo la norma UNE-ISO 690:2013, siguiendo el sistema de citación **Nombre y Fecha**, comúnmente conocido como sistema *Harvard*.
+* [Guía temática sobre citas bibliográficas UNE-ISO 690:2013](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/une-iso-690#articulo)
+  - UC3M, 2020. Guía temática sobre citas bibliográficas UC3M: UNE-ISO 690:2013. En: *Biblioteca - Universidad Carlos III de Madrid* [en línea]. Disponible en: https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/une-iso-690 [consulta: 26/03/2020].
