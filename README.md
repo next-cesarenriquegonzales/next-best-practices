@@ -13,4 +13,4 @@ Trabajaremos en el siguiendo una estructura de tres niveles:
 2. Sub-area o especialidad: por ejemplo, dentro del area de cloud será Amazon o Azure
 3. Buena pŕactica: en este tercer nivel cada buena pŕactica estará recogida en un directorio
 
-Para mas información sobre los formatos podeis consultar [](../enterprise/tech/framework-best-practices/Readme.md)
+Para mas información sobre los formatos podeis consultar [los formatos](../enterprise/tech/framework-best-practices/Readme.md)
