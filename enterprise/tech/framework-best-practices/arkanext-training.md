@@ -1,5 +1,5 @@
 # Título del curso
-> Titulo del curso, se especifico
+> Título del curso, se especifico.
 [comment]:# (intenta ser descriptivo y específico)
 
 
@@ -7,17 +7,17 @@
 > Descripción general de la materia a tratar  
 
 ## Nivel
-> Nivel del training, puede ser basico, medio o dificil
+> Nivel del training, puede ser básico, medio o dificil.
 [comment]:# (Agregar un nivel del trining en el tema, para que sepa en lo que se inscribe)
 
 
 ## Pre-requisitos
-> Conocimientos, herramientas o recursos que necesitas para este training 
+> Conocimientos, herramientas o recursos que necesitas para este training.
 [comment]:# (los pre requisitos son los recursos que debe tener la persona que tomara el training, es distinto a la seccion de recursos, ya que los pre-requisitos no son dados )
 
 
 #### [v1.0]
-> Versión del documento (si procede)
+> Versión del documento (si procede).
 
 #### Autores
 > Quién ha desarrollado y escrito este documento (el orden por cantidad de tiempo dedicado)
@@ -25,13 +25,13 @@
 * [NombreAutor2 ApellidoAutor2](mailto:nombre2.apellido2.next@bbva.com)
 
 #### TRIBU1 TRIBU2 DD-MM-YYYY
-> Tribu(s) de realización de la PoC y Fecha del documento
+> Tribu(s) de realización de la PoC y Fecha del documento.
 
 #### keyword1, keyword2, keyword3
-> Al menos tres tags que identifiquen las tecnologías relacionadas
+> Al menos tres tags que identifiquen las tecnologías relacionadas.
 
 ## Temario
-> Descripción de lo temas a tratar en la formación
+> Descripción de los temas a tratar en la formación.
 
 ### Contenidos
 > Los contenidos textuales o referencias del curso.
