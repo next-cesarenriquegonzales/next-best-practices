@@ -24,8 +24,10 @@
 * [NombreAutor1 ApellidoAutor1](mailto:nombre1.apellido1.next@bbva.com)
 * [NombreAutor2 ApellidoAutor2](mailto:nombre2.apellido2.next@bbva.com)
 
+
 #### TRIBU1 TRIBU2 DD-MM-YYYY
 > Tribu(s) de realización de la PoC y Fecha del documento.
+
 
 #### keyword1, keyword2, keyword3
 > Al menos tres tags que identifiquen las tecnologías relacionadas.
@@ -37,7 +39,7 @@
 > Los contenidos textuales o referencias del curso.
 
 ### Recursos
-> Recursos asociados al curso como ejercicios, videos….
+> Recursos asociados al curso como la presentación, ejercicios, videos….
 
 # Bibliografía
 > En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección. Las citas se realizarán bajo la norma UNE-ISO 690:2013, siguiendo el sistema de citación **Nombre y Fecha**, comúnmente conocido como sistema *Harvard*.
