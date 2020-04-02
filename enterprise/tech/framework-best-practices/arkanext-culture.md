@@ -5,10 +5,10 @@
 > Hay que explicar el nombre y una breve descripción de su objetivo (que se especificará más en siguientes puntos). En caso de duda una cultura es el conjunto de lemas y ceremonias que alinean a un grupo de personas con un mindset cultural.
 
 #### [v1.0]
-> Versión del documento (si procede)
+> Versión del documento (si procede).
 
 #### Autores
-> Quién ha desarrollado y escrito este documento (el orden por cantidad de tiempo dedicado)
+> Quién ha desarrollado y escrito este documento (el orden por cantidad de tiempo dedicado).
 * [NombreAutor1 ApellidoAutor1](mailto:nombre1.apellido1.next@bbva.com)
 * [NombreAutor2 ApellidoAutor2](mailto:nombre2.apellido2.next@bbva.com)
 
@@ -27,6 +27,7 @@
 ## Solución
 > En esta sección se debe especificar con claridad como cada solución aporta valor al objetivo.
 
-# Bibliografía
-> En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección.
-
+## Bibliografía
+> En esta sección tiene que describirse todo el material utilizado, recuerda que infringes el copyright si no rellenas correctamente esta sección. Las citas se realizarán bajo la norma UNE-ISO 690:2013, siguiendo el sistema de citación **Nombre y Fecha**, comúnmente conocido como sistema *Harvard*.
+* [Guía temática sobre citas bibliográficas UNE-ISO 690:2013](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/une-iso-690#articulo)
+  - UC3M, 2020. Guía temática sobre citas bibliográficas UC3M: UNE-ISO 690:2013. En: *Biblioteca - Universidad Carlos III de Madrid* [en línea]. Disponible en: https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/une-iso-690 [consulta: 26/03/2020].
