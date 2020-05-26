@@ -165,7 +165,7 @@ gcloud kms decrypt \
     --location global  \
     --keyring next-integration-secrets\
     --key next-js-node-back \
-    --ciphertext-file next_test_pw.enc.txt \
+    --ciphertext-file next_test_pw.enc.64.txt \
     --plaintext-file next_test_pw.plaintext.txt
 ```
 **Nota:** Para este paso es necesario tener el fichero con la contraseña encriptada y codificada, en caso no lo tengas tendrás que generarlo manualmente con todas las implicaciones que ello conlleva.
