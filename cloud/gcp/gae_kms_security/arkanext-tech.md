@@ -16,7 +16,7 @@ Tribu GCP 25-05-2020
 #### Seguridad, GCP, GAE, KMS, CloudBuild
 
 ## Introducción
-Esta recomendación aplica usando solo servicios GCP, en caso tengas un repositorio de contraseñas On-premise/Otras cloud públicas, esta recomendación puede aplicar pero ya depende de los requisitos del proyecto, ya que tener varios repositorios de contraseñas no es una buena opción.
+Esta recomendación aplica usando solo servicios GCP, en caso tengas un repositorio de contraseñas On-premise/Otras cloud públicas, esta recomendación puede aplicar pero ya depende de los requisitos del proyecto, ya que tener varios repositorios de contraseñas no es una buena opción. La opción mas deseable para este proceso sería manejarlo dentro del código pero si hay limitaciones de skills/time/team se podría delegar esta tarea dentro del CI como en este caso.
 
 ## Objetivo
 Brindar una guía de cómo utilizar CloudBuild-GAE-KMS en entornos GCP cumpliendo las buenas prácticas de seguridad. Eso no quiere decir que esta es la única opción válida, solo una de las tantas opciones posibles.
@@ -27,6 +27,7 @@ Es necesario cumplir con los siguientes requerimientos:
 * Habilitar las APIs de KMS, GAE, CloudBuild en GCP.
 * Agregar al usuario de servicio de CloudBuild el role Cloud KMS CryptoKey Decrypter (necesario para desencriptar la clave KMS).
 * El usuario que lance los comandos que se indican en los siguientes puntos necesitan permisos Admin en KMS, GAE y CloudBuild como mínimo. 
+* Tener un control granular de los permisos otorgados en los servicios que forman parte de este documento (GAE, KMS, CloudBuild, Container Registry)
 
 ### Cloud Key Management Service (KMS)
 Es un servicio de gestión de claves de GCP que te permite administrar las claves encriptadas. A través de él puedes generar, usar, rotar y eliminar claves criptográficas AES256, RSA 2048, RSA 3072, RSA 4096, EC P256 y EC P384. 
@@ -65,7 +66,7 @@ base64 next_test_pw.enc.txt -w 0 > next_test_pw.enc.64.txt
 ### App Engine (GAE)
 Crea y despliega aplicaciones en una plataforma totalmente gestionada, puedes elegir distintos lenguajes como Java, Node.js, Python entre otros, además te da opción a elegir el módulo Standard o Flexible. En este caso usaremos el módulo Standard y como lenguaje de la aplicación Node.js
 
-Supongamos que dentro del código tenemos distintas variables de entorno definidos. siendo una de ellas la contraseña del usuario de conexión con el backend (CloudSQL), llamada NEXT_BACK_MYSQLUSER.
+Supongamos que dentro del código tenemos distintas variables de entorno definidos. siendo una de ellas la contraseña del usuario de conexión con el backend (CloudSQL), llamada NEXT_BACK_MYSQLPASSWORD.
 
 ```
 // Infere Front URL
@@ -85,7 +86,7 @@ export const config = cnf
 ### Desencriptando la contraseña utilizando CloudBuild
 CloudBuild nos permite CI/CD de cualquier aplicación dentro de la infraestructura de GCP, definiendo una serie de steps basados en dockers, lo que nos otorga la flexibilidad necesaria para desencriptar la contraseña creada en uno de los puntos anteriores.
 
-Un tema importante es el fichero de configuración (en json o yaml) el cual contiene las intrucciones que utilizará CloudBuild para el despliegue de la aplicación, por defecto busca cloudbuild.yaml, pero puedes personalizarlo y llamarlo cloudbuild-custom.yaml si es necesario, esto es necesario en nuestro caso ya que cada entorno (DEV, QA, PRE y PRO) debería tener una contraseña distinta. Para definirlo necesitamos configurar el trigger dentro de CloudBuild, como se puede ver en la siguiente imagen:
+Un tema importante es el fichero de configuración (en json o yaml) el cual contiene las intrucciones que utilizará CloudBuild para el despliegue de la aplicación, por defecto busca cloudbuild.yaml, pero puedes personalizarlo y llamarlo cloudbuild-custom.yaml, esto es necesario en nuestro caso ya que cada entorno (DEV, QA, PRE y PRO) debería tener una contraseña distinta. Para definirlo necesitamos configurar el trigger dentro de CloudBuild, como se puede ver en la siguiente imagen:
 
 ![Trigger_CloudBuild](images/cloudbuild_trigger.png)
 
